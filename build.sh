@@ -10,7 +10,7 @@ pip install gunicorn
 pip install python-dotenv
 pip install openpyxl
 pip install requests
-pip install -r requirements.txt
+pip install python-dotenv
 
 python manage.py collectstatic --no-input
 python manage.py makemigrations
